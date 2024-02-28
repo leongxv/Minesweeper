@@ -1,14 +1,9 @@
 /*
 Minesweeper Mini-game
- - 2D grid with bombs randomly placed
-	- These locations are flagged as unsafe
- - Difference from regular minesweeper is:
- 	- Spots where the bombs are not located have numbers that account for the distance from the closest bomb
-*/
-
-/*
-Prompt:
-1) g++ minesweeper.cpp minesweeper.h main.cpp
+ - Incoporates 2D arrays to display the board
+ - Function calls to create objects
+ - Recursive functions to produce the distance from the closest bomb
+ - Utilizies pseudo-random location generation to place the bombs
 */
 
 #include "minesweeper.h"
