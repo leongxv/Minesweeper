@@ -1,3 +1,8 @@
+/*
+minesweeper.h
+ - header file for minesweeper.cpp to store predefined functions
+*/
+
 #ifndef MINESWEEPER_H
 #define MINESWEEPER_H
 
