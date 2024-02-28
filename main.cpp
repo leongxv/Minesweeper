@@ -1,6 +1,14 @@
 /*
-main.cpp
- - Calls the functions in minesweeper.cpp to implement the minesweeper board
+Minesweeper Mini-game
+ - 2D grid with bombs randomly placed
+	- These locations are flagged as unsafe
+ - Difference from regular minesweeper is:
+ 	- Spots where the bombs are not located have numbers that account for the distance from the closest bomb
+*/
+
+/*
+Prompt:
+1) g++ minesweeper.cpp minesweeper.h main.cpp
 */
 
 #include "minesweeper.h"
